@@ -13,7 +13,7 @@ st.title("🔮 Employee Attrition Prediction")
 # Manual input of features
 st.header("📋 Enter Employee Details")
 
-Age = st.slider("Age", 18, 65, 30)
+age = st.slider("Age", 18, 65, 30)
 monthly_income = st.number_input("Monthly Income", min_value=1000, step=100)
 job_satisfaction = st.selectbox("Job Satisfaction", ["Very High", "High", "Medium", "Low"])
 performance_rating = st.selectbox("Performance Rating", ["High", "Average", "Low", "Below Average"])
